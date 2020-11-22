@@ -1,0 +1,123 @@
+  <!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Calculadora</title>
+      <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css"
+      />
+
+      <style>
+        .card-footer-item{padding: 0;}
+        html{background-color: aquamarine;}
+      </style>
+
+    </head>
+    <body>
+
+    <section class="section">
+        <h1 class="title has-text-centered">Mi calculadorcini</h1>
+
+      <div class="container">
+        <div class="columns">
+            <div class="column is-half is-offset-one-quarter">
+        <div class="card">
+          <header class="card-header">
+            <p class="card-header-title" id="result">Resultado</p>
+            <a href="#" class="card-header-icon" aria-label="more options">
+              <span class="icon">
+                <i class="fas fa-angle-down" aria-hidden="true"></i>
+              </span>
+            </a>
+          </header>
+          <div class="card-content">
+            <div class="content" id="operations">
+              Operaciones
+              <br />
+            </div>
+          </div>
+
+
+          <footer class="card-footer">
+            <a class="card-footer-item"> 
+              <button class="button is-fullwidth is-large" value="(">(</button>
+            </a>
+            <a class="card-footer-item">
+              <button class="button is-fullwidth is-large" value=")">)</button>
+            </a>
+            <a class="card-footer-item">
+              <button class="button is-fullwidth is-large is-danger" id="eraseAll">CA</button>
+            </a>
+            <a class="card-footer-item">
+              <button class="button is-fullwidth is-large is-danger" id="erase">CE</button>
+            </a>
+          </footer> 
+
+          <footer class="card-footer">
+            <a class="card-footer-item"> 
+              <button class="button is-fullwidth is-large" value="7">7</button>
+            </a>
+            <a class="card-footer-item">
+              <button class="button is-fullwidth is-large" value="8">8</button>
+            </a>
+            <a class="card-footer-item">
+              <button class="button is-fullwidth is-large" value="9">9</button>
+            </a>
+            <a class="card-footer-item">
+              <button class="button is-fullwidth is-large is-info" value="/">÷</button>
+            </a>
+          </footer> 
+
+          <footer class="card-footer">
+            <a class="card-footer-item"> 
+              <button class="button is-fullwidth is-large" value="4">4</button>
+            </a>
+            <a class="card-footer-item">
+              <button class="button is-fullwidth is-large" value="5">5</button>
+            </a>
+            <a class="card-footer-item">
+              <button class="button is-fullwidth is-large" value="6">6</button>
+            </a>
+            <a class="card-footer-item">
+              <button class="button is-fullwidth is-large is-info" value="*">x</button>
+            </a>
+          </footer> 
+
+          <footer class="card-footer">
+            <a class="card-footer-item"> 
+              <button class="button is-fullwidth is-large" value="1">1</button>
+            </a>
+            <a class="card-footer-item">
+              <button class="button is-fullwidth is-large" value="2">2</button>
+            </a>
+            <a class="card-footer-item">
+              <button class="button is-fullwidth is-large" value="3">3</button>
+            </a>
+            <a class="card-footer-item">
+              <button class="button is-fullwidth is-large is-info" value="-">-</button>
+            </a>
+          </footer> 
+
+          <footer class="card-footer">
+            <a class="card-footer-item"> 
+              <button class="button is-fullwidth is-large" value="0">0</button>
+            </a>
+            <a class="card-footer-item">
+              <button class="button is-fullwidth is-large" value=".">.</button>
+            </a>
+            <a class="card-footer-item">
+              <button class="button is-fullwidth is-large is-success" id="equal">=</button>
+            </a>
+            <a class="card-footer-item">
+              <button class="button is-fullwidth is-large is-info" value="+">+</button>
+            </a>
+          </footer> 
+        </div>
+      </div>
+  </div>
+  </div>
+      <script src="app.js"></script>
+    </body>
+  </html>
