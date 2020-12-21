@@ -1,0 +1,16 @@
+{
+  "name": "languageguesser",
+  "version": "1.0.0",
+  "description": "write a sentence in any language and the program will try to guess the language",
+  "main": "index.js",
+  "dependencies": {
+    "franc": "^5.0.0",
+    "langs": "^2.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "bryan",
+  "license": "ISC"
+}
